@@ -3,11 +3,11 @@ import 'package:islami_app/UI/Home/home_screen.dart';
 import 'package:islami_app/Utils/app_routes.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const IslamiApp());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class IslamiApp extends StatelessWidget {
+  const IslamiApp({super.key});
 
   @override
   Widget build(BuildContext context) {
