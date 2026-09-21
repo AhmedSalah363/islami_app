@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:islami_app/ui/screens/home_screen.dart';
-import 'package:islami_app/ui/screens/introduction_screen.dart';
+import 'package:islami_app/models/onboarding/screens/onboarding_screen.dart';
 import 'package:islami_app/ui/screens/splash_screen.dart';
 import 'package:islami_app/utils/app_routes.dart';
 
@@ -19,7 +19,7 @@ class IslamiApp extends StatelessWidget {
       routes: {
         AppRoutes.splashRoute: (context) => const SplashScreen(),
         AppRoutes.homeRoute: (context) => const HomeScreen(),
-        AppRoutes.introductionRoute: (context) => const IntroductionScreen(),
+        AppRoutes.introductionRoute: (context) => const OnboardingScreen(),
       },
     );
   }
